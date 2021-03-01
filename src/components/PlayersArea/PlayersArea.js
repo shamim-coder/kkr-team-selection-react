@@ -15,9 +15,13 @@ const PlayersArea = () => {
     }, [])
 
     const playerAddHandler = (player) => {
-
-        const newPlayer = [...selectedPlayer, player]
-        setSelectedPlayer(newPlayer)
+        const inn = selectedPlayer.indexOf(player)
+        if (inn > -1) {
+            alert('Already Added')
+        } else {
+            const newPlayer = [...selectedPlayer, player]
+            setSelectedPlayer(newPlayer)
+        }
 
     }
 
