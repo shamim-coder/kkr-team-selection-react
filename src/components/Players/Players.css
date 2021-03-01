@@ -4,18 +4,21 @@
 .player.card {
     margin: 10px;
     box-shadow: 1px 0px 8px 1px lightgrey;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .players p {
     margin: 0;
 }
 .player-img {
     position: relative;
-    background: #6e438c;
+    background: #563089;
     border-radius: 4px 4px 0 0;
+    width: 220px;
 }
 .player-img svg {
     font-size: 25px;
-    color: #6e438c;
+    color: #563089;
     display: block;
 }
 .player-img button {
@@ -23,10 +26,13 @@
     top: 0;
     right: 0;
     border: none;
-    background: white;
+    background: goldenrod;
     margin: 10px;
-    border-radius: 3px;
-    padding: 3px 5px;
+    border-radius: 50%;
+    padding: 0px 9px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
 }
 .performance {
     display: flex;
@@ -47,8 +53,9 @@
 }
 .name strong {
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 0.8;
+    margin-top: 8px;
 }
 .player .card-body {
     padding-top: 5px;
@@ -64,13 +71,17 @@
 }
 p.price {
     font-weight: 600;
-    margin-top: 7px;
+    font-size: 18px;
 }
 p.name {
     margin-bottom: 10px;
 }
-
-
+h1.title {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    margin: 20px 0;
+}
 .box {
     position: relative;
 }
@@ -116,4 +127,22 @@ p.name {
     border-right: 3px solid #d68815;
     border-bottom: 3px solid transparent;
     border-top: 3px solid #d68815;
+}
+.card-footer svg {
+    font-size: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.card-footer {
+    background: #fff;
+}
+.player-select-btn {
+    background: #563089;
+    border: none;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+.player-select-btn:hover {
+    background: #8f51bb;
 }

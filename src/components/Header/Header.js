@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../../resources/logo.png';
+import logo from '../../resources/logo.svg';
 import './Header.css'
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
 const Header = () => {
     return (
         <header>
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg">
                 <Navbar.Brand href="#home"><img className="logo" src={logo} alt={logo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

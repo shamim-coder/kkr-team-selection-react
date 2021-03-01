@@ -1,3 +1,20 @@
+header {
+    background-color: #563089;
+}
+header .navbar-brand {
+    margin-right: 50px;
+}
 .logo {
-    width: 200px
+    width: 40px
+}
+#basic-navbar-nav a.nav-link {
+    color: #fff;
+}
+.form-inline button {
+    color: #fff;
+    border-color: #fff;
+}
+.form-inline button:hover {
+    background-color: goldenrod;
+    border-color:goldenrod;
 }

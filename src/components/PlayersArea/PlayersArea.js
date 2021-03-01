@@ -11,7 +11,7 @@ const PlayersArea = () => {
     useEffect(() => {
         setPlayers(playerData)
     }, [])
-    console.log();
+
     const playerAddHandler = (player) => {
         const newPlayer = [...selectedPlayer, player]
         setSelectedPlayer(newPlayer)
@@ -19,17 +19,17 @@ const PlayersArea = () => {
     return (
         <section className="squad-area">
             <Container fluid>
-                <h1>IPL Squad 2021</h1>
+                <h1 className="title">IPL Squad 2021</h1>
                 <Row>
-                    <Col className="players" md={9}>
+                    <Col key={Math.random() * 33} className="players" md={9}>
                         <Row>
                             {
-                                players.map(player => <Players addHandler={playerAddHandler} player={player} />)
+                                players.map(player => <Players key={Math.random() * player.id} addHandler={playerAddHandler} player={player} />)
                             }
                         </Row>
                     </Col>
                     <Col className="selected-player" md={3}>
-                        <SelectedPlayers selectedPlayer={selectedPlayer} />
+                        <SelectedPlayers key={Math.random() * 55} selectedPlayer={selectedPlayer} />
                     </Col>
                 </Row>
             </Container>

@@ -31,18 +31,18 @@
     },
     {
         "id": 3,
-        "fName": "Andre",
-        "lName": "Russell",
-        "matches": 74,
-        "runs": 1517,
-        "wickets": 61,
+        "fName": "Sakib",
+        "lName": "Al Hasan",
+        "matches": 63,
+        "runs": 746,
+        "wickets": 59,
         "team": "Kalkata Knight Riders",
         "club": "IPL 2021",
-        "nationality": "West Indies",
-        "picture": "https://i.ibb.co/tcqw9zc/Andre-Russell.png",
+        "nationality": "Bangladesh",
+        "picture": "https://i.ibb.co/4V9gQK2/Shakib-Al-Hasan.png",
         "playerRole": "All Rounder",
         "isCaptain": false,
-        "basePrice": 250000
+        "basePrice": 2000000
     },
     {
         "id": 4,
@@ -298,5 +298,20 @@
         "playerRole": "Batsman",
         "isCaptain": false,
         "basePrice": 125000
+    },
+    {
+        "id": 21,
+        "fName": "Andre",
+        "lName": "Russell",
+        "matches": 74,
+        "runs": 1517,
+        "wickets": 61,
+        "team": "Kalkata Knight Riders",
+        "club": "IPL 2021",
+        "nationality": "West Indies",
+        "picture": "https://i.ibb.co/tcqw9zc/Andre-Russell.png",
+        "playerRole": "All Rounder",
+        "isCaptain": false,
+        "basePrice": 250000
     }
 ]

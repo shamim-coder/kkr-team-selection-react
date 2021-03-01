@@ -1,0 +1,49 @@
+.select-player-wrap img {
+    width: 75px;
+    height: 65px;
+    object-fit: cover;
+    object-position: top;
+    margin-right: 10px;
+}
+.player-text .name {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+p.base-price {
+    font-size: 20px;
+    font-weight: 400;
+}
+.select-player-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+    background-image: url(https://www.kkr.in//static-assets/build/images/top-performer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    border-bottom: 3px solid goldenrod;
+    box-shadow: 0 0px 10px 5px lightgrey;
+}
+.selected-player {
+    background: #e8e8e8;
+    padding-top: 15px;
+}
+.player-text p {
+    margin: 0;
+}
+.select-title {
+    background: #563089;
+    color: #fff;
+    padding: 10px;
+}
+.select-title h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+}
+.select-title p {
+    font-size: 24px;
+}
