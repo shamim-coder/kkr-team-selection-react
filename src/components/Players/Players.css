@@ -1,0 +1,119 @@
+.players {
+    text-align: center;
+}
+.player.card {
+    margin: 10px;
+    box-shadow: 1px 0px 8px 1px lightgrey;
+}
+.players p {
+    margin: 0;
+}
+.player-img {
+    position: relative;
+    background: #6e438c;
+    border-radius: 4px 4px 0 0;
+}
+.player-img svg {
+    font-size: 25px;
+    color: #6e438c;
+    display: block;
+}
+.player-img button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background: white;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+.performance {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 0 0;
+}
+.performance span {
+    font-size: 10px;
+}
+.performance h4 {
+    font-size: 20px;
+    margin: 0;
+}
+.match, .run {
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+}
+.name strong {
+    display: block;
+    font-size: 22px;
+    line-height: 0.8;
+}
+.player .card-body {
+    padding-top: 5px;
+}
+.role {
+    line-height: 30px;
+    font-size: 15px;
+    background: #70458f;
+    color: #fff;
+    display: inline-block;
+    padding: 0 12px;
+    border-radius: 2px;
+}
+p.price {
+    font-weight: 600;
+    margin-top: 7px;
+}
+p.name {
+    margin-bottom: 10px;
+}
+
+
+.box {
+    position: relative;
+}
+.ribbon {
+    position: absolute;
+    left: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 100px;
+    display: block;
+    background: #d68815;
+    background: linear-gradient(#d19c4c 0%, #d68815 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px; left: -21px;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #d68815;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #d68815;
+}
+.ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #d68815;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #d68815;
+}
