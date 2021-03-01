@@ -7,15 +7,20 @@ import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 
 const PlayersArea = () => {
     const [players, setPlayers] = useState([])
+
     const [selectedPlayer, setSelectedPlayer] = useState([])
+
     useEffect(() => {
         setPlayers(playerData)
     }, [])
 
     const playerAddHandler = (player) => {
+
         const newPlayer = [...selectedPlayer, player]
         setSelectedPlayer(newPlayer)
+
     }
+
     return (
         <section className="squad-area">
             <Container fluid>

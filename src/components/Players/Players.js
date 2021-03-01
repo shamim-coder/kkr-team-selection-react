@@ -20,7 +20,7 @@ const Players = (props) => {
                 </div>
                 <Card.Body>
                     <p className="name"> <strong>{fName} {lName} </strong></p>
-                    <p className="price">Base Price: {basePrice}</p>
+                    <p className="price">Base Price: ${basePrice}</p>
                     <div className="performance">
                         <div className="match">
                             <h4>{matches}</h4>
